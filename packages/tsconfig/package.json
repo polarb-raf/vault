@@ -1,0 +1,12 @@
+{
+  "name": "@vault/tsconfig",
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "default.json",
+    "node.json"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
+}

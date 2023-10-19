@@ -1,0 +1,3 @@
+{
+  "extends": "@raf-vault/tsconfig/default.json"
+}
