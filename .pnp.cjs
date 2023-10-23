@@ -48,7 +48,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:0.4.3"],\
+            ["eslint-plugin-tailwindcss", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:3.13.0"],\
             ["prettier", "npm:3.0.3"],\
+            ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:4.4.11"]\
           ],\
@@ -2557,6 +2559,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [\
             "@types/eslint",\
             "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-plugin-tailwindcss", [\
+        ["npm:3.13.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-tailwindcss-npm-3.13.0-3743eff042-0ed226300b.zip/node_modules/eslint-plugin-tailwindcss/",\
+          "packageDependencies": [\
+            ["eslint-plugin-tailwindcss", "npm:3.13.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:3.13.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-tailwindcss-virtual-d5dca12768/0/cache/eslint-plugin-tailwindcss-npm-3.13.0-3743eff042-0ed226300b.zip/node_modules/eslint-plugin-tailwindcss/",\
+          "packageDependencies": [\
+            ["eslint-plugin-tailwindcss", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:3.13.0"],\
+            ["@types/tailwindcss", null],\
+            ["fast-glob", "npm:3.3.1"],\
+            ["postcss", "npm:8.4.31"],\
+            ["tailwindcss", "npm:3.3.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5650,7 +5676,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-react", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:7.33.2"],\
             ["eslint-plugin-react-hooks", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:4.6.0"],\
             ["eslint-plugin-react-refresh", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:0.4.3"],\
+            ["eslint-plugin-tailwindcss", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:3.13.0"],\
             ["prettier", "npm:3.0.3"],\
+            ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"],\
             ["vite", "virtual:9711d9dae89ef089560b0f75b50e9a10b45cc62be43ba27f29b5b09f806d67891553bee60ab3729d53bcfbe00b1c0a5ff12f712b18a6c20ca01a29e361f5f0a1#npm:4.4.11"]\
           ],\
