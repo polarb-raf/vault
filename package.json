@@ -6,8 +6,9 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev",
-    "dev:react": "turbo run dev --filter=@vault/react"
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "dev:react": "turbo dev --filter=@vault/react"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.0.0",

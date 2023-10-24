@@ -1,0 +1,4 @@
+{
+  "extends": "@vault/tsconfig/node",
+  "include": ["vite.config.ts"]
+}
