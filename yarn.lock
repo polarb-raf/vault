@@ -878,7 +878,6 @@ __metadata:
     "@types/node": ^20.8.6
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
-    "@vault/tsconfig": "workspace:^"
     "@vitejs/plugin-react": ^4.0.3
     autoprefixer: ^10.4.16
     postcss: ^8.4.31
@@ -890,7 +889,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vault/tsconfig@workspace:^, @vault/tsconfig@workspace:packages/tsconfig":
+"@vault/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@vault/tsconfig@workspace:packages/tsconfig"
   languageName: unknown

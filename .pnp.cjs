@@ -1199,7 +1199,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/node", "npm:20.8.6"],\
             ["@types/react", "npm:18.2.28"],\
             ["@types/react-dom", "npm:18.2.13"],\
-            ["@vault/tsconfig", "workspace:packages/tsconfig"],\
             ["@vitejs/plugin-react", "virtual:b6f9ca3e02ce914c494bf2b57053fac4eb93339149454a09476e3191dc9400ddd056dafe033b721f3e4dd4e7b532092f065f3293a92f4880096acd28eb0dda9c#npm:4.1.0"],\
             ["autoprefixer", "virtual:b6f9ca3e02ce914c494bf2b57053fac4eb93339149454a09476e3191dc9400ddd056dafe033b721f3e4dd4e7b532092f065f3293a92f4880096acd28eb0dda9c#npm:10.4.16"],\
             ["postcss", "npm:8.4.31"],\
