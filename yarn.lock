@@ -851,6 +851,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vault/main@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@vault/main@workspace:."
+  dependencies:
+    "@typescript-eslint/eslint-plugin": ^6.0.0
+    "@typescript-eslint/parser": ^6.0.0
+    eslint: ^8.45.0
+    eslint-config-prettier: ^9.0.0
+    eslint-plugin-import: ^2.28.1
+    eslint-plugin-prettier: ^5.0.1
+    eslint-plugin-react: ^7.33.2
+    eslint-plugin-react-hooks: ^4.6.0
+    eslint-plugin-react-refresh: ^0.4.3
+    eslint-plugin-tailwindcss: ^3.13.0
+    prettier: ^3.0.3
+    tailwindcss: ^3.3.3
+    typescript: ^5.0.2
+  languageName: unknown
+  linkType: soft
+
 "@vault/react@workspace:packages/react":
   version: 0.0.0-use.local
   resolution: "@vault/react@workspace:packages/react"
@@ -858,6 +878,7 @@ __metadata:
     "@types/node": ^20.8.6
     "@types/react": ^18.2.15
     "@types/react-dom": ^18.2.7
+    "@vault/tsconfig": "workspace:^"
     "@vitejs/plugin-react": ^4.0.3
     autoprefixer: ^10.4.16
     postcss: ^8.4.31
@@ -869,7 +890,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@vault/tsconfig@workspace:packages/tsconfig":
+"@vault/tsconfig@workspace:^, @vault/tsconfig@workspace:packages/tsconfig":
   version: 0.0.0-use.local
   resolution: "@vault/tsconfig@workspace:packages/tsconfig"
   languageName: unknown
@@ -4752,28 +4773,6 @@ __metadata:
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
   languageName: node
   linkType: hard
-
-"vault@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "vault@workspace:."
-  dependencies:
-    "@typescript-eslint/eslint-plugin": ^6.0.0
-    "@typescript-eslint/parser": ^6.0.0
-    "@vitejs/plugin-react": ^4.0.3
-    eslint: ^8.45.0
-    eslint-config-prettier: ^9.0.0
-    eslint-plugin-import: ^2.28.1
-    eslint-plugin-prettier: ^5.0.1
-    eslint-plugin-react: ^7.33.2
-    eslint-plugin-react-hooks: ^4.6.0
-    eslint-plugin-react-refresh: ^0.4.3
-    eslint-plugin-tailwindcss: ^3.13.0
-    prettier: ^3.0.3
-    tailwindcss: ^3.3.3
-    typescript: ^5.0.2
-    vite: ^4.4.11
-  languageName: unknown
-  linkType: soft
 
 "vite@npm:^4.4.11":
   version: 4.4.11

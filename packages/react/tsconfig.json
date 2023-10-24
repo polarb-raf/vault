@@ -1,10 +1,10 @@
 {
-  "extends": "../tsconfig/default.json",
+  "extends": "../tsconfig/base",
   "compilerOptions": {
     "moduleResolution": "bundler",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
     }
   },
   "include": ["src"]
