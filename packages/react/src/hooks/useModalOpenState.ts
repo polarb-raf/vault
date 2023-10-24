@@ -1,7 +1,7 @@
 import { useState, useEffect, Dispatch, SetStateAction } from 'react';
 
 interface ModalOpenStateHookParams {
-  parentElId: string; // modal을 담고 있는 부모 요소의 element Id. unique해야 오동작을 방지할 수 있으며 css selector의 형태로 전송하자. ex) #testModal
+  parentElId: string; // modal을 담고 있는 부모 요소의 element Id. unique해야 오동작을 방지할 수 있음.
   defaultState?: boolean;
 }
 
@@ -10,7 +10,7 @@ const useModalOpenState = ({ parentElId, defaultState = false }: ModalOpenStateH
   useEffect(() => {
     const checkClickOutside = (e: MouseEvent) => {
       const target = e.target as Element;
-      if (target.closest(`${parentElId}`)) return;
+      if (target.closest(`#${parentElId}`)) return;
       setOpenedState(false);
     };
     document.addEventListener('mousedown', checkClickOutside);
