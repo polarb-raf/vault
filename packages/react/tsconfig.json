@@ -1,5 +1,5 @@
 {
-  "extends": "../tsconfig/base",
+  "extends": "@vault/tsconfig/base",
   "compilerOptions": {
     "moduleResolution": "bundler",
     "baseUrl": ".",
