@@ -8,12 +8,17 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/components.js",
   "module": "./dist/components.js",
   "exports": {
     ".": {
       "import": "./dist/components.js"
+    },
+    "./style.css": {
+      "import": "./dist/style.css"
     }
   },
   "peerDependencies": {
@@ -32,6 +37,8 @@
   },
   "volta": {
     "extends": "../../package.json"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.6.1"
   }
 }
-

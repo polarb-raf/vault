@@ -6,6 +6,7 @@
       "outputs": ["dist/**"]
     },
     "dev": {
+      "dependsOn": ["@vault/design-system#build"],
       "cache": false,
       "persistent": true
     }
