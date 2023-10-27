@@ -85,5 +85,6 @@ module.exports = {
     'no-dupe-class-members': 2, // 클래스 멤버 중복 금지
     'react/react-in-jsx-scope': 'off', // react 17부터 jsx에 react 없어도 사용 가능
     'react/prop-types': 'off',
+    'tailwindcss/no-custom-classname': 0,
   },
 }

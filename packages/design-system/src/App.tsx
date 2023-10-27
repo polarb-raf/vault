@@ -1,4 +1,5 @@
 import { Button } from '@/components/button/button';
+import './base.css';
 
 function App() {
   return (
