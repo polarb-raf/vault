@@ -1,8 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 
-import preset from '@vault/design-system/preset';
+import designPreset from '@vault/design-system/preset';
 export default {
-  presets: [preset],
+  presets: [designPreset],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {},
