@@ -1,10 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 
-import preset from '@vault/design-system/preset';
 export default {
-  presets: [preset],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
+    colors: {
+      blue: {
+        500: '#000',
+      },
+      primary: '#992233',
+    },
     extend: {},
   },
   plugins: [],
