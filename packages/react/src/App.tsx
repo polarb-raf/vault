@@ -8,8 +8,8 @@ function App() {
       <LoadingIndicator />
       <div className="bg-blue-500">hohoho</div>
       <div className="bg-primary">heheiehoi</div>
-      <Button />
-      <Button primary />
+      <Button className="mb-5" />
+      <Button primary disabled />
     </div>
   );
 }
