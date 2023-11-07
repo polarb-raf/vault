@@ -6,7 +6,10 @@ function App() {
   return (
     <div className="mx-auto w-[120px]">
       <LoadingIndicator />
-      <Button />
+      <div className="bg-blue-500">hohoho</div>
+      <div className="bg-primary">heheiehoi</div>
+      <Button className="mb-5" />
+      <Button primary disabled />
     </div>
   );
 }

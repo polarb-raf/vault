@@ -19,7 +19,8 @@
     },
     "./style.css": {
       "import": "./dist/style.css"
-    }
+    },
+    "./preset": "./preset.js"
   },
   "peerDependencies": {
     "react": "^18.2.0"
