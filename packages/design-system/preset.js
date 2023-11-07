@@ -52,9 +52,6 @@ export default {
           400: '#606366',
           500: '#2d2f31',
         },
-        greydetail: {
-          100: '#afafaf',
-        },
         white: {
           100: '#ffffff1a',
           200: '#ffffff33',
