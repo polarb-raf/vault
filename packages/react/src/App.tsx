@@ -8,8 +8,10 @@ function App() {
       <LoadingIndicator />
       <div className="bg-blue-500">hohoho</div>
       <div className="bg-primary">heheiehoi</div>
-      <Button className="mb-5" />
-      <Button primary disabled />
+      <Button className="mb-5">이것은 수류탄이오</Button>
+      <Button primary disabled>
+        이것은 못쓰는 버튼이오
+      </Button>
     </div>
   );
 }
